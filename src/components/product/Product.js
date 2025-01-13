@@ -2,8 +2,10 @@ import React from 'react'
 import './Product.scss'
 
     const Product = ( {title, img, text, subtext, bottom, textWidth, textColor}) => {
+      console.log(img);
+      
   return (
-    <section className='product' style={{background: `url(${img}) bottom bottom/cover no-repeat `}}>
+    <section className='product' style={{background: `url(${img}) center bottom/cover no-repeat `}}>
         <div className="product__content" style= {{color: textColor}}>
             <h1 className="product__title"> {title}</h1>
             <p className="product__text" style={{width: textWidth}}>{text}</p>

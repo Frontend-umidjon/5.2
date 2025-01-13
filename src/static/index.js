@@ -1,14 +1,7 @@
 import Hero1 from '../assets/iPhone16promax.png'
 import Hero2 from '../assets/iphone16.png'
 import Hero3 from '../assets/iwatch.png'
-import Product1 from '../assets/fitness.png'
-import Product2 from '../assets/iPad.png'
-import Product3 from '../assets/Mackbook.png'
-import Product4 from '../assets/iwatchUltra.png'
-import Product5 from '../assets/trade.png'
-import Product6 from '../assets/Card.png'
 export const HERO = [Hero1, Hero2, Hero3]
-export const PRODUCTS = [Product1, Product2, Product3, Product4, Product5, Product6]
 export const LINKS  = [
     {
         id: 1,
