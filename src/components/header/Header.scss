@@ -1,0 +1,38 @@
+.header{
+    position: fixed;
+    z-index: 999;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    background-color: #161617CC;
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #FFFFFFCC;
+        padding: 20px 0px;
+        &__logo{
+            font-size: 24px;
+            cursor: pointer;
+        }
+        &__list{
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        
+        }
+        &__item{
+            cursor: pointer;           
+        }
+        &__link{
+            text-decoration: none;
+            color: #FFFFFFCC;
+        }
+        &__actions{
+            display: flex;
+            gap: 24px;
+            font-size: 20px;
+        }
+
+    }
+}

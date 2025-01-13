@@ -1,0 +1,77 @@
+.product{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 12px;
+    height: 580px;
+    &__content{
+        margin-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title{
+       
+        font-size: 51.41px;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: -0.28px;
+    }
+    &__text{
+        text-align: center;
+        margin-top: 11px;
+        font-size: 18.05px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.23px;
+    
+       
+    }
+    &__subtext{
+        font-size: 13.78px;
+        line-height: 18px;
+        letter-spacing: -0.22px;
+        color: #6E6E73;
+    }
+    &__actions{
+        margin-top: 14px;
+    }
+    &__btn{
+        padding: 12px 22px;
+        border-radius: 980px;
+        cursor: pointer;
+        border: 1px solid #0071E3;
+        background-color: #0071E3;
+        color: #FFFFFF;
+        font-size: 13.78px;
+        line-height: 18px;
+        letter-spacing: -0.22px;
+        margin-right: 12px;
+
+        &:nth-child(2){
+            background-color: transparent;
+            border: 1px solid #0071E3;
+            color: #0071E3;
+        }
+    }
+    &__bottom{
+        position: absolute;
+        bottom: 53px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+        line-height: 18px;
+        background-color: #2AA5A0;
+        background-image: linear-gradient(90deg, #0090F7 , #BA62FC,#F2416B,#F55600);
+        background-color: #2AA5A0;
+        background-image: linear-gradient( 100%, #0090F7 ,100% #BA62FC,#F2416B,#F55600);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+.air{
+    color: #0071E3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
