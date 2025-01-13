@@ -6,7 +6,8 @@ import './Product.scss'
       
   return (
     <section className='product' style={{background: `url(${img}) center bottom/cover no-repeat `}}>
-        <div className="product__content" style= {{color: textColor}}>
+       <div className="container">
+       <div className="product__content" style= {{color: textColor}}>
             <h1 className="product__title"> {title}</h1>
             <p className="product__text" style={{width: textWidth}}>{text}</p>
             <p className='product__subtext'>{subtext}</p>
@@ -15,6 +16,7 @@ import './Product.scss'
                 <button className='product__btn'>Try it free</button>
             </div>
            
+       </div>
         </div>
         <p className='product__bottom'>{bottom}</p>
     </section>

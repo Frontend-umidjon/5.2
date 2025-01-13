@@ -5,7 +5,8 @@ import './Hero.scss'
 const Hero = ({title, img, btnColor, btnText, textColor }) => {
   return (
     <section className='hero' style={{background: `url(${img}) center center/cover no-repeat `}}>
-        <div className="hero__content" style={{color: textColor}}>
+       <div className="container">
+       <div className="hero__content" style={{color: textColor}}>
             <h1 className="hero__title">
                 {title}
             </h1>
@@ -20,6 +21,7 @@ const Hero = ({title, img, btnColor, btnText, textColor }) => {
                     Buy Now
                 </button>
             </div>
+       </div>
         </div>
     </section>
   )
